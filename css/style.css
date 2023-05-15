@@ -1,0 +1,32 @@
+.h-screen{
+    height: 100vh;
+}
+
+.rounded-md{
+    border-radius: 18px;
+}
+
+.login-page{
+    background: linear-gradient(to right,rgba(0,0,0, .3),rgba(0,0,0, .3) ),url(../image/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.form-input{
+    background: #EDEDED!important;
+    font-size: 1.3rem;
+    border-radius: 8px;
+    line-height: 1;
+}
+
+.form-input::placeholder{
+    color: #737373;
+}
+
+.btn-login{
+    background: #4382C5;
+    color: white;
+    border-radius: 14px;
+    padding: 10px 26px;
+}
